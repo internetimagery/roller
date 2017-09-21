@@ -54,7 +54,7 @@ def main():
             "%s.translateX" % ctrl,
             force=True)
         cmds.connectAttr(
-            "%s.outputY" % mult_scale,
+            "%s.scaleY" % ctrl,
             "%s.translateY" % ctrl,
             force=True)
 
